@@ -1,0 +1,44 @@
+<!--index.wxml-->
+<view class="container">
+  <text class='desc-style'>
+    品人间美味 ， 尝鑫源土菜
+  </text>
+  <image class="showimg" mode="widthFix" src='../image/show_1.jpg'></image>
+  <text class='desc-style'>
+    传承饮食文化 ， 传播特色美味
+  </text>
+  <image class="showimg" mode="widthFix" src='../image/show_2.jpg'></image>
+  <text class='desc-style'>
+    欲食天下鲜 ， 安全记心间
+  </text>
+  <image class="showimg" mode="widthFix" src='../image/show_3.jpg'></image>
+  <text class='desc-style'>
+    好吃 ， 不贵
+  </text>
+  <image class="showimg" mode="widthFix" src='../image/show_4.jpg'></image>
+  <text class='desc-style'>
+    欢迎新老顾客光临
+  </text>
+  <text class='desc-style' bindtap='callme'>
+    预定请致电： <text style='color:#C00D22'>18155451727</text>
+  </text>
+  <text class='desc-style-last'>
+    地址：八公山区孔集矿门前四岔路口向东50米鑫源土菜
+  </text>
+  <!-- <button class='position-btn' bindtap="goToMap" hover-class="position-btn-click">
+    <image class="positionimage" src='https://app-img.ihomefnt.com/customPosition.png'>
+    </image>
+    查看位置信息
+  </button> -->
+  <view class='positionView' bindtap="goToMap"></view>
+  <!-- <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view> -->
+  <!-- <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view> -->
+</view>

@@ -1,0 +1,15 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/position/position"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#C00D22",
+    "navigationBarTitleText": "鑫元食府",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh":false,
+    "backgroundColor": "#FFFFFF"
+  }
+}

@@ -1,0 +1,3 @@
+<view>
+<map class="mapclass" scale='17' markers='{{markers}}'  longitude='116.811294' latitude='32.679663' controls="{{controls}}" bindcontroltap='abc'></map>
+</view>
